@@ -1,0 +1,24 @@
+[user]
+	email = zenya.nagata.aiesec@gmail.com
+	name = Zenya Nagata
+	signingkey = /home/zenya/.ssh/id_rsa.pub
+[color]
+	ui = auto
+
+[lfs]
+    	enabled = true
+
+# [diff]
+# 	external = difft
+[push]
+	default = current
+	autoSetupRemote = true
+[branch]
+	sort = -committerdate
+[init]
+	defaultBranch = main
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+

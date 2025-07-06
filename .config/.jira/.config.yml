@@ -1,0 +1,186 @@
+auth_type: basic
+board:
+    id: 98
+    name: AO board
+    type: kanban
+epic:
+    name: customfield_10103
+    link: customfield_10101
+installation: Local
+issue:
+    fields:
+        custom:
+            - name: Disp-Pos-check
+              key: customfield_11000
+              schema:
+                datatype: string
+            - name: Disp2
+              key: customfield_11001
+              schema:
+                datatype: string
+            - name: Epic Color
+              key: customfield_10104
+              schema:
+                datatype: string
+            - name: component watchers field
+              key: customfield_10500
+              schema:
+                datatype: array
+                items: user
+            - name: Sprint
+              key: customfield_10105
+              schema:
+                datatype: array
+                items: string
+            - name: Watchers
+              key: customfield_10501
+              schema:
+                datatype: array
+                items: user
+            - name: ReleaseNote
+              key: customfield_10700
+              schema:
+                datatype: option
+            - name: Story Points
+              key: customfield_10106
+              schema:
+                datatype: number
+            - name: issueFunction
+              key: customfield_10502
+              schema:
+                datatype: any
+            - name: Reviewers
+              key: customfield_10701
+              schema:
+                datatype: array
+                items: user
+            - name: Pull Request
+              key: customfield_10702
+              schema:
+                datatype: string
+            - name: Team
+              key: customfield_10900
+              schema:
+                datatype: any
+            - name: Parent Link
+              key: customfield_10901
+              schema:
+                datatype: any
+            - name: Review Requester
+              key: customfield_10703
+              schema:
+                datatype: user
+            - name: Target start
+              key: customfield_10902
+              schema:
+                datatype: date
+            - name: Target end
+              key: customfield_10903
+              schema:
+                datatype: date
+            - name: Original story points
+              key: customfield_10904
+              schema:
+                datatype: number
+            - name: Rank
+              key: customfield_10100
+              schema:
+                datatype: any
+            - name: Epic Status
+              key: customfield_10102
+              schema:
+                datatype: option
+            - name: Escalation
+              key: customfield_10300
+              schema:
+                datatype: option
+            - name: SyncRequired
+              key: customfield_11100
+              schema:
+                datatype: option
+            - name: SyncTargetProject
+              key: customfield_11101
+              schema:
+                datatype: array
+                items: option
+            - name: Baseline finish date (WBSGantt)
+              key: customfield_10203
+              schema:
+                datatype: date
+            - name: JITDF_Warning
+              key: customfield_10600
+              schema:
+                datatype: any
+            - name: Progress (WBSGantt)
+              key: customfield_10204
+              schema:
+                datatype: number
+            - name: Milestone (WBSGantt)
+              key: customfield_10205
+              schema:
+                datatype: option
+            - name: Review Approvals
+              key: customfield_10800
+              schema:
+                datatype: array
+                items: user
+            - name: Units (WBSGantt)
+              key: customfield_10206
+              schema:
+                datatype: number
+            - name: Manually scheduled (WBSGantt)
+              key: customfield_10207
+              schema:
+                datatype: option
+            - name: Development
+              key: customfield_10000
+              schema:
+                datatype: any
+            - name: Start date (WBSGantt)
+              key: customfield_10200
+              schema:
+                datatype: date
+            - name: Finish date (WBSGantt)
+              key: customfield_10201
+              schema:
+                datatype: date
+            - name: Baseline start date (WBSGantt)
+              key: customfield_10202
+              schema:
+                datatype: date
+            - name: Failure Flag
+              key: customfield_10400
+              schema:
+                datatype: array
+                items: option
+    types:
+        - id: "10000"
+          name: Epic
+          handle: ""
+          subtask: false
+        - id: "10001"
+          name: Story
+          handle: ""
+          subtask: false
+        - id: "10002"
+          name: Task
+          handle: ""
+          subtask: false
+        - id: "10003"
+          name: Sub-task
+          handle: ""
+          subtask: true
+        - id: "10004"
+          name: Bug
+          handle: ""
+          subtask: false
+login: zenya
+project:
+    key: AO
+    type: ""
+server: https://jira-sds.base.toyota-tokyo.tech
+timezone: Asia/Tokyo
+version:
+    major: 8
+    minor: 20
+    patch: 8
